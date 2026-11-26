@@ -11,3 +11,7 @@ A one-line resignation letter from the cron job that has fired every minute sinc
 ```
 MAKEFUN_OUTPUT_DIR=/output python3 main.py
 ```
+
+## Why this line
+
+The schedule `0 0 30 2 *` is a cron expression that can never fire, since February has no 30th, so the resignation is a move to a job that does nothing. The first clause puts the speaker in the active voice: it ran every minute, nobody read it, and now it stops.
